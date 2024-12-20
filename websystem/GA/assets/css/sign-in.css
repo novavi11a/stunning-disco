@@ -1,0 +1,97 @@
+html,
+body {
+  height: 100%;
+}
+
+.bg-body-tertiary {
+    
+  background-color: rgb(224, 70, 134) !important;
+  background-image: url(../img/cakeItEasy.png);
+  background-repeat:repeat;
+  backdrop-filter: opacity(0.5);
+  background-size: cover;
+
+}
+
+.form-signin {
+  max-width: 500px;
+  padding: 2rem;
+  background-color:  rgb(230, 218, 223);
+  border-radius: 50px;
+  box-shadow: 5px 10px #00000088;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.btn-primary {
+  --bs-btn-color: #fff;
+  --bs-btn-bg: #a888b5;
+  --bs-btn-border-color: #6e618d;
+ --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #8174a0;
+  --bs-btn-hover-border-color: #6b5d8c;
+  --bs-btn-focus-shadow-rgb: 49, 132, 253;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #0a58ca;
+  --bs-btn-active-border-color: #0a53be;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: #0d6efd;
+  --bs-btn-disabled-border-color: #0d6efd;
+}
+
+.form-check-input:checked {
+  background-color: #6e618d;
+  border-color: #6e618d;
+}
+
+
+#message {
+  display:none;
+  background: #f1f1f1;
+  color: #000;
+  position: relative;
+  padding: 20px;
+  margin-top: 10px;
+}
+
+#message p {
+  padding: 10px 35px;
+  font-size: 18px;
+}
+
+/* Add a green text color and a checkmark when the requirements are right */
+.valid {
+  color: green;
+}
+
+.valid:before {
+  position: relative;
+  left: -35px;
+  content: "&#10004;";
+}
+
+/* Add a red text color and an "x" icon when the requirements are wrong */
+.invalid {
+  color: red;
+}
+
+.invalid:before {
+  position: relative;
+  left: -35px;
+  content: "&#10006;";
+}
